@@ -1,4 +1,8 @@
 /*Content*/
+.content {
+  max-width: 960px;
+  margin:auto;
+}
 .Container {
   display:flex;
   align-items: center;
@@ -11,9 +15,7 @@
   grid-gap: 20px;
   grid-template-columns: repeat(1,minmax(350px,1fr))
 }
-.push{
-  margin-left:auto;
-}
+
 .box{
   background-color: #444;
   padding: 130px;
