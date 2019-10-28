@@ -2,14 +2,14 @@ import React from 'react';
 import'./Workout.css';
 
 
-const Workout = () => {
+const Home = () => {
     return (
         <div className="zone blue ">
         <div className="box zone">
         <h2>HELLO</h2>
-        <p>Cras facilisis urna ornare ex volutpat, et
-        convallis erat elementum. Ut aliquam, ipsum vitae
-        gravida suscipit, metus dui bibendum est, eget rhoncus nibh
+        <p>Home Home Home Home ex volutpat, et
+        convallis Home elementum. Ut aliquam, ipsum vitae
+        gravida Home, metus dui bibendum est, eget rhoncus nibh
         metus nec massa. Maecenas hendrerit laoreet augue
         nec molestie. Cum sociis natoque penatibus et magnis
         dis parturient montes, nascetur ridiculus mus.</p>
@@ -20,4 +20,4 @@ const Workout = () => {
     )
 };
 
-export default Workout;
+export default Home;
