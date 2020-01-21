@@ -1,10 +1,16 @@
-.header {
+/* Styles go here */
+
+.header{
     cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    background-color: #b39544;
     
-}
-h1{
- background-color: blanchedalmond;
- width: 200px;
- 
-}
+    font-family: verdana;
+  }
+  
+  .content{
+    cursor: pointer;
+    padding: 15px;
+    font-family: verdana;
+    font-size: 14px;
+  }
