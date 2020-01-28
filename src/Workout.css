@@ -1,0 +1,16 @@
+h1{
+    font-family: fantasy;
+    font-size: 2em;
+   
+}
+.container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) ;
+    grid-template-rows: 1fr 1fr;
+   
+}
+.item{
+    
+}
+

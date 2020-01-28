@@ -7,20 +7,23 @@ class Workout extends Component {
   
     render(){
         return (
-            <div>
+            <div >
             <Collapsible title='Week1'> <Collapsible title='Day 1'>
-            <div> Exercise 1= Chest- Barbell Incline Bench Press-->Normal Set Reps: 15/12/10</div>
-             <div>Exercise 2= Chest-PUSH Up-->Normal Reps: 15/12/10</div>
-             <div>Exercise 3= Chest-Upper Pec Contractions-->Reps: 15/12/10</div>
-             <div>Exercise 4= Dumbbell Incline Flys--> Reps: 15/12/10</div>
-             <div>Exercise 5= Decline Sit Ups--->Reps 25/25</div>
-             <div>Exercise 6= Basic Crunches --->Reps 25/25</div>
-             <div>Exercise 7= Hanging Pikes --->Reps 25/25</div>
-             <div>Exercise 8= Frog Sit Ups --->Reps 25/25</div>
-             <div>Exercise 9= Snatch Shrug --->Reps 15/15/15(Trapezium)</div>
-             <div>Exercise 10= Barbell Shrugs(Behind Back) --->Reps 15/15/15(Trapezium) </div>
-             <div>Exercise 11= Standing Dumbbell Upright Row(Close Grip)--->Reps 15/15/15(Trapezium)</div>
+            <div className="container">
+            <div className='item'> <h1>Exercise 1</h1>Chest- Barbell Incline Bench Press-->Normal Set Reps: 15/12/10</div>
+             <div className='item'><h1>Exercise 2</h1> Chest-PUSH Up-->Normal Reps: 15/12/10</div>
+             <div className='item'><h1>Exercise 3</h1> Chest-Upper Pec Contractions-->Reps: 15/12/10</div>
+             <div className='item'><h1>Exercise 4</h1> Dumbbell Incline Flys--> Reps: 15/12/10</div>
+             <div className='item'><h1>Exercise 5</h1> Decline Sit Ups--->Reps 25/25</div>
+             <div className='item'><h1>Exercise 6</h1> Basic Crunches --->Reps 25/25</div>
+             <div className='item'><h1>Exercise 7</h1> Hanging Pikes --->Reps 25/25</div>
+             <div className='item'><h1>Exercise 8</h1> Frog Sit Ups --->Reps 25/25</div>
+             <div className='item'><h1>Exercise 9</h1> Snatch Shrug --->Reps 15/15/15(Trapezium)</div>
+             <div className='item'><h1>Exercise 10</h1> Barbell Shrugs(Behind Back) --->Reps 15/15/15(Trapezium) </div>
+             <div className='item'><h1>Exercise 11</h1> Standing Dumbbell Upright Row(Close Grip)--->Reps 15/15/15(Trapezium)</div>
+</div>
             </Collapsible>  
+            
             <Collapsible title='Day 2' ></Collapsible>
             <Collapsible title='Day 3' ></Collapsible>
             <Collapsible title='Day 4' ></Collapsible>
